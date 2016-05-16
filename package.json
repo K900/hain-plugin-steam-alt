@@ -1,5 +1,5 @@
 {
-  "name": "hain-plugin-steam",
+  "name": "hain-plugin-steam-alt",
   "version": "0.0.1",
   "description": "a hain plugin for running Steam games",
   "main": "index.js",
