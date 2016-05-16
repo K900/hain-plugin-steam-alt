@@ -49,12 +49,13 @@ module.exports = (pluginContext) => {
         const query_trim = query.replace(' ', '');
         matchutil.fuzzy(Object.keys(index), query_trim, x => x).forEach(x => {
             const name = x.elem;
+            const nameBold = matchutil.makeStringBoldHtml(name, x.matches);
             const appID = index[name];
             res.add({
                 group: 'Steam',
                 id: appID,
                 title: name,
-                desc: 'Run ' + name + ' from Steam (appID ' + appID + ')'
+                desc: 'Run ' + nameBold + ' from Steam (appID ' + appID + ')'
             });
         });
     }
