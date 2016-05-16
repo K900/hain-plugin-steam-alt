@@ -1,0 +1,21 @@
+{
+  "name": "hain-plugin-steam",
+  "version": "0.0.1",
+  "description": "a hain plugin for running Steam games",
+  "main": "index.js",
+  "scripts": {},
+  "author": "K900 <me@0upti.me>",
+  "license": "MIT",
+  "keywords": [
+    "hain-0.3.0"
+  ],
+  "hain": {
+    "prefix": null,
+    "usage": "type in the name to find Steam games",
+    "icon": "#fa fa-steam"
+  },
+  "dependencies": {
+    "opn": "^4.0.1",
+    "vdf": "0.0.2"
+  }
+}

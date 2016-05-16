@@ -1,0 +1,17 @@
+{
+  "type": "object",
+  "properties": {
+    "appDirs": {
+      "type": "array",
+      "title": "Folders to search for apps",
+      "items": {
+        "type": "string"
+      },
+      "default": [
+        "C:\\Program Files\\Steam\\SteamApps",
+        "C:\\Program Files (x86)\\Steam\\SteamApps",
+        "~/.steam/steam/steamapps"
+      ]
+    }
+  }
+}
