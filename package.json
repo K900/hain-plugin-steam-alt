@@ -9,6 +9,7 @@
   "keywords": [
     "hain-0.3.0"
   ],
+  "repository": "K900/hain-plugin-steam-alt",
   "hain": {
     "prefix": null,
     "usage": "type in the name to find Steam games",
